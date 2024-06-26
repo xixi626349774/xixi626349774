@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.46" prefHeight="820.0" prefWidth="1200.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main">
+   <children>
+      <Label alignment="CENTER" layoutX="-28.0" layoutY="83.0" prefHeight="80.0" prefWidth="1244.0" text="Welcome to the Middle-Earth Adventure!" textFill="#f6ff42">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="destinationInput" layoutX="100.0" layoutY="230.0" prefHeight="70.0" prefWidth="900.0" promptText="The destination...">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="levelsInput" layoutX="100.0" layoutY="383.0" prefHeight="70.0" prefWidth="900.0" promptText="The number of levels...">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <Button layoutX="247.0" layoutY="550.0" mnemonicParsing="false" onAction="#startGame" prefHeight="100.0" text="Start Game" textFill="#f51313">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="737.0" layoutY="550.0" mnemonicParsing="false" onAction="#Exit" prefHeight="100.0" prefWidth="200.0" text="Exit" textFill="#f51313">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
